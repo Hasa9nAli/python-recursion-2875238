@@ -5,7 +5,9 @@ Robin Andrews - https://compucademy.net/
 
 
 def factorial_iterative_while(n):  # Condition-controlled version
-    pass
+    if n < 2 :
+        return 1 
+    return n * factorial_iterative_while(n-1) 
 
 
 # Let's do some basic testing
